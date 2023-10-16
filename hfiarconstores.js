@@ -23,4 +23,6 @@ const shopArconCustom = window.shopArconCustom || (function (document, window, $
     };
     return app;
 }(document, window, jQuery));
-shopArconCustom.init();
+jQuery(function() {
+    shopArconCustom.init();
+});
